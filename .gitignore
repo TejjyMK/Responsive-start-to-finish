@@ -1,4 +1,4 @@
-# Created by https://www.gitignore.io/api/sass,macos,webstorm,webstorm+iml,webstorm+all
+# Created by https://www.gitignore.io/api/sass,macos,prepros,webstorm,webstorm+iml,webstorm+all
 
 ### macOS ###
 # General
@@ -27,6 +27,11 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### Prepros ###
+# Config Prepros files to ignore
+prepros.cfg
+prepros-6.config
 
 ### Sass ###
 .sass-cache/
@@ -173,4 +178,4 @@ modules.xml
 
 
 
-# End of https://www.gitignore.io/api/sass,macos,webstorm,webstorm+iml,webstorm+all
+# End of https://www.gitignore.io/api/sass,macos,prepros,webstorm,webstorm+iml,webstorm+all
