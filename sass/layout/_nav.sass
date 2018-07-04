@@ -1,0 +1,31 @@
+.main-nav
+  background: $accent
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  font-size: 1.2rem
+
+  ul
+    display: flex
+    flex-direction: column
+    height: 100vh
+    justify-content: space-around
+
+  li
+    //flex-grow: 1
+    //flex-shrink: 1
+    //flex-basis: auto
+    flex : 1 1 auto // Same as the top
+    border-bottom: 1px solid rgba(0,0,0,.15)
+    display: flex
+    align-items: center // vertical align
+    justify-content: center // horizontal align
+
+  a
+    color: $text-inverse
+    text-decoration: none
+
+
+
+
